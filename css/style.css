@@ -102,5 +102,45 @@ header {
    background-color: #ffffff;
    box-shadow: 0 20px 40px 0 #00000010;
 }
-
 /* feature end */
+/* course start */
+.courses {}
+.c_title {}
+.c_title h1 {
+   font-size: 36px;
+   font-weight: 700;
+   color: #413960;
+}
+/* course item */
+.c_item {
+   margin-top: 60px;
+   padding: 25px 20px 30px;
+   border-radius: 18px;
+   box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.c_img {}
+.c_item h2{
+   margin-top: 20px;
+   font-size: 24px;
+   font-weight: 500;
+   color: #413960;
+}
+.c_item p{
+   color: #585859;
+}
+.co_btn {
+   margin: 20px 0 35px;
+   padding: 8px 28px;
+
+}
+.c_footer {
+   display: flex;
+   justify-content: space-between;
+}
+.c_left {}
+.c_left img, .c_right img{}
+.c_left span, .c_right span{
+   font-weight: 500;
+   color: #585859;
+}
+/* course end */
