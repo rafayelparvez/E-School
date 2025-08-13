@@ -62,6 +62,31 @@ header {
     font-size: 12px;
 }
 /* course end */
+/* testimony start */
+.t_item {
+   margin-top: 30px;
+}
+.t_img {
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.t_text p{
+  text-align: center;
+  line-height: 25px;
+}
+ /* testimony end */
+ /* footer start */
+footer {
+   padding: 55px 0 30px;
+}
+.f_col2 {
+  margin-top: 20px;
+}
+.f_copy {
+  margin-top: 30px;
+}
+ /* footer end */
 
 }
 
@@ -130,6 +155,31 @@ header {
     font-size: 14px;
 }
 /* course end */
+/* testimony start */
+.t_item {
+   margin-top: 30px;
+}
+.t_img {
+  width:20%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.t_text{
+  text-align: center;
+  line-height: 25px;
+}
+ /* testimony end */
+ /* footer start */
+footer {
+   padding: 55px 0 30px;
+}
+.f_col2 {
+  margin-top: 20px;
+}
+.f_copy {
+  margin-top: 50px;
+}
+ /* footer end */
 
 }
 
@@ -180,6 +230,28 @@ header {
 }
 
 /* course end */
+ /* testimony start */
+.t_item {
+   margin-top: 50px;
+}
+.t_img {
+  margin-right: 0px;
+}
+.t_text{
+   line-height: 25px;
+}
+ /* testimony end */
+ /* footer start */
+footer {
+   padding: 55px 0 30px;
+}
+.f_col2 {
+  margin-top: 20px;
+}
+.f_copy {
+  margin-top: 50px;
+}
+ /* footer end */
 } 
   
 /* Large devices (desktops, 992px and up) */
@@ -190,6 +262,17 @@ header {
     font-size: 14px;
 }
 /* course end */
+ /* testimony start */
+.t_item {
+   margin-top: 50px;
+}
+.t_img {
+  margin-right: 0px;
+}
+.t_text{
+   line-height: 25px;
+}
+ /* testimony end */
  }
 
 /* Extra large devices (large desktops, 1200px and up) */

@@ -144,3 +144,42 @@ header {
    color: #585859;
 }
 /* course end */
+/* testimony start */
+.testimony {}
+.t_item {
+   margin-top: 60px;
+}
+.t_img {
+  margin-right: 50px;
+}
+.t_text{
+   line-height: 30px;
+}
+.t_text p{
+
+}
+/* testimony end */
+/* footer start */
+footer {
+   background-color: #282531;
+   padding: 55px 0 30px;
+}
+.f_col1 {}
+.f_col1 p{
+   color: #ffffff;
+}
+.f_col2 {}
+.f_col2 p a{
+   color: #ffffff;
+   text-decoration: none;
+}
+.ft_title {
+   font-weight: 700;
+}
+.f_copy {
+   margin-top: 70px;
+}
+.f_copy p{
+   color: #CDCDCD;
+}
+/* footer end */
