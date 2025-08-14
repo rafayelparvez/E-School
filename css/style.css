@@ -173,7 +173,7 @@ footer {
    color: #ffffff;
    text-decoration: none;
 }
-.ft_title p{
+.ft_title {
    color: #ffffff;
    font-weight: 700;
 }
@@ -184,5 +184,6 @@ footer {
    color: #CDCDCD;
 }
 /* footer end */
+
 
 
