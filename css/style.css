@@ -2,11 +2,26 @@
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* common start */
+:root {
+    --black     : #000000;
+    --black-2   : #0000001A;
+    --black-3   : #413960;
+    --gray      : #585859;
+    --white     : #ffffff;
+    --green     : #21B573;
+    --red       : #FD511A;
+    --bg        : #F0FFF0;
+    --bg-2      : #282531;
+    --f-bg      : #F8FFFB;
+
+    --poppins   : "Poppins", sans-serif;
+    --roboto    : "Roboto", sans-serif;
+}
 body {
-   font-family: poppins, sans-serif;
+   font-family: var(--poppins);
    font-size: 16px;
    font-weight: 400;
-   color: #000000;
+   color: var(--black);
 }
 .pb-100 {
    padding-bottom: 100px;
@@ -14,7 +29,7 @@ body {
 /* common end */
 /* header start */
 header {
-   background-color: #F0FFF0;
+   background-color: var(--bg);
    padding: 10px 0;
 }
 .nav_c {}
@@ -24,46 +39,46 @@ header {
    padding: 0 15px !important;
 }
 .menu ul li a:hover{
-   color: #FD511A !important;
+   color: var(--red) !important;
 }
 .c_btn {
-   background-color: #21B573;
+   background-color: var(--green);
    border-radius: 33px;
-   font-family: roboto, sans-serif;
-   color: #ffffff;
+   font-family: var(--roboto);
+   color: var(--white);
 }
 .btn-sign-in {
     margin-left: 10px;
     padding: 12px 28px;
 }
 .c_btn:hover {
-    background-color: #FD511A;
-    color: #ffffff;
+    background-color: var(--red);
+    color: var(--white);
 }
 
 .c_btn:active {
-    background-color: #FD511A !important;
-    color: #ffffff !important;
+    background-color: var(--red) !important;
+    color: var(--white) !important;
 }
 /* header end */
 /* hero start */
 .hero {
-   background-color: #F0FFF0;
+   background-color: var(--bg);
    padding-bottom: 65px;
 }
 .h_text {}
 .h-p1 {
-   color: #FD511A;
+   color: var(--red);
 }
 .h-h1 {
    margin: 10px 0 20px;
    font-size: 48px;
    font-weight: 700;
-   color: #000000;
+   color: var(--black);
    line-height: 70px;
 }
 .h-h1 span {
-   color: #21B573;
+   color: var(--green);
 }
 .h-p2 {
    margin-bottom: 15px;
@@ -76,11 +91,9 @@ header {
 .h_img img {}
 /* hero end */
 /* feature start */
-.feature {
-   pa
-}
+.feature {}
 .f_item {
-   background-color: #F8FFFB;
+   background-color: var(--f-bg);
    margin-top: 40px;
    padding: 50px 0 60px;
    border-radius: 10px;
@@ -93,13 +106,13 @@ header {
    margin-top: 22px;
    font-size: 24px;
    font-weight: 500;
-   color: #413960;
+   color: var(--black-3);
 }
 .f_item p { 
-   color: #585859;
+   color: var(--gray);
 }
 .f_item:hover {
-   background-color: #ffffff;
+   background-color: var(--white);
    box-shadow: 0 20px 40px 0 #00000010;
 }
 /* feature end */
@@ -109,24 +122,24 @@ header {
 .c_title h1 {
    font-size: 36px;
    font-weight: 700;
-   color: #413960;
+   color: var(--black-3);
 }
 /* course item */
 .c_item {
    margin-top: 60px;
    padding: 25px 20px 30px;
    border-radius: 18px;
-   box-shadow: 0px 10px 40px 0px #0000001A;
+   box-shadow: 0px 10px 40px 0px var(--black-2);
 }
 .c_img {}
 .c_item h2{
    margin-top: 20px;
    font-size: 24px;
    font-weight: 500;
-   color: #413960;
+   color: var(--black-3);
 }
 .c_item p{
-   color: #585859;
+   color: var(--gray);
 }
 .co_btn {
    margin: 20px 0 35px;
@@ -141,7 +154,7 @@ header {
 .c_left img, .c_right img{}
 .c_left span, .c_right span{
    font-weight: 500;
-   color: #585859;
+   color: var(--gray);
 }
 /* course end */
 /* testimony start */
@@ -161,29 +174,31 @@ header {
 /* testimony end */
 /* footer start */
 footer {
-   background-color: #282531;
+   background-color: var(--bg-2);
    padding: 55px 0 30px;
 }
-.f_col1 {}
-.f_col1 p{
-   color: #ffffff;
+.ft_col1 {}
+.ft_col1 p{
+   color: var(--white);
 }
-.f_col2 {}
-.f_col2 p a{
-   color: #ffffff;
+.ft_col2 {}
+.ft_col2 p a{
+   color: var(--white);
    text-decoration: none;
 }
 .ft_title {
-   color: #ffffff;
+   color: var(--white);
    font-weight: 700;
 }
-.f_copy {
+.ft_copy {
    margin-top: 70px;
 }
-.f_copy p{
-   color: #CDCDCD;
+.ft_copy p{
+   color: var(--white);
+}
+.ft_copy p span{
+   font-weight: 700;
+   font-style: italic;
+   color: var(--red);
 }
 /* footer end */
-
-
-

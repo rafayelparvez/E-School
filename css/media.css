@@ -58,8 +58,11 @@ header {
 .c_item h2{
    font-size: 22px;
 }
-.c_left span, .c_right span {
-    font-size: 12px;
+.c_left img, .c_right img{
+  width: 20px;
+}
+.c_left span, .c_right span{
+   font-size: 14px;
 }
 /* course end */
 /* testimony start */
@@ -80,10 +83,10 @@ header {
 footer {
    padding: 55px 0 30px;
 }
-.f_col2 {
+.ft_col2 {
   margin-top: 20px;
 }
-.f_copy {
+.ft_copy {
   margin-top: 30px;
 }
  /* footer end */
@@ -173,10 +176,10 @@ header {
 footer {
    padding: 55px 0 30px;
 }
-.f_col2 {
+.ft_col2 {
   margin-top: 20px;
 }
-.f_copy {
+.ft_copy {
   margin-top: 50px;
 }
  /* footer end */
@@ -245,10 +248,10 @@ footer {
 footer {
    padding: 55px 0 30px;
 }
-.f_col2 {
+.ft_col2 {
   margin-top: 20px;
 }
-.f_copy {
+.ft_copy {
   margin-top: 50px;
 }
  /* footer end */
@@ -283,7 +286,7 @@ footer {
 }
 /* hero end */
 
- }
+}
 
 /* Extra extra large devices (large desktops, 1400px and up) */
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) { }
